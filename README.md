@@ -1,3 +1,8 @@
+# Typescript coda parser
+
+Parse a coda document and returns an object with the content of the document.
+0 dependencies.
+
 ## Requirements
 
 - Typescript >= 4.5.x
@@ -6,34 +11,37 @@
 
 ## Install
 
-Any package manager should do the trick but i recommend using [Pnpm](https://pnpm.io).
-
 ```bash
-pnpm i
+pnpm i @triptyk/coda-parser
 ```
 
-## Start
+## Local Development
 
-### Dev
+### Start
+
+#### Dev
 
 ```bash
 pnpm start:dev
 ```
 
-### Production
+### Compile
 
-You need to transpile the Typescript because executing the command.
+You need to transpile the Typescript before executing the command.
 
 ```bash
-pnpm tsc && pnpm start:production
+pnpm tsc
 ```
 
-## Tests & Lint
+### Tests
 
 ```bash
 pnpm test
 ```
 
+### Lint
+
 ```bash
 pnpm lint
 ```
+
